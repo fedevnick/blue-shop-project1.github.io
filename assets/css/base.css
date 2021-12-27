@@ -1,0 +1,37 @@
+:root {
+    --white-color: rgb(220, 229, 245);    
+    --blur-white-color: rgba(182, 205, 243, 0.8);
+
+    --black-color: #000;
+    --text-color: #333;
+    --main-color: rgb(85, 130, 212);
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.25%;
+    line-height: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Responsive */
+.grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* use if want to use full-screen grid */
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
