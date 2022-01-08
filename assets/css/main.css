@@ -59,3 +59,81 @@ nav .list__item-icon:hover {
     color: var(--blur-white-color);
     cursor: pointer;
 }
+
+
+/* header app links */
+nav .apps {
+    position: absolute;
+    top: 118%;
+    left: 0;
+
+    display: none;
+    width: 140px;
+    border-radius: 2px;
+}
+
+nav .list__item--show-apps:hover .apps {
+    display: block;
+}
+
+.apps__item-qr img {
+    width: 100%;
+    border-radius:2px;
+}
+
+.apps__item {
+    display: flex;
+    justify-content: space-around;
+
+    height: 32px;
+}
+
+.apps__item span {
+    width: 50%;
+}
+
+.apps__item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+/* Notification */
+nav .notify {
+    position: absolute;
+    top: 118%;
+    right: 0;
+
+    display: block;
+    width: 400px;
+
+    background-color: #fff;
+}
+
+nav .notify__header h3 {
+    padding: 5px;
+    color: rgb(160, 169, 190);
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+nav .notify__list {
+    list-style: none;
+    padding: 0;
+}
+
+
+nav .notify__item-link {
+    display: flex;
+}
+
+nav .notify__item-link-description {
+    color: var(--text-color);
+    padding: 0 10px;
+}
+
+nav .notify__item-link-image {
+    width: 48px;
+    height: 48px; 
+    background-size: cover;
+}
